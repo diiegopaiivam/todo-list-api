@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon src/index.js",
-    "prod": "node src/index.js",
-    "production": "pm2 start src/index.js --name minhas-tarefas"
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "production": "pm2 start src/index.js"
   },
   "keywords": [],
   "author": "",
